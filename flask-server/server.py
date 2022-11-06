@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, render_template, request, Response, flash, redirect, url_for
 import json
-from .auth.auth import AuthError, requires_auth
+
 from flask_cors import CORS
 
 app = Flask(__name__)
